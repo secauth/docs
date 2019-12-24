@@ -12,6 +12,14 @@
 
 [![微信小程序「安全登录」登录流程](/assets/secauth-flow.png?raw=true)](https://github.com/secauth/docs)
 
+## 登录结果
+
+[![微信小程序「安全登录」主题](/assets/secauth-theme.jpg?raw=true)](https://github.com/secauth/docs)
+
+- 保持简洁，避免打扰用户，确定即离开
+- 自带多款主题配色
+- 支持定制，由应用自行提供配色，与你的网站保持一致（计划中）
+
 ## 谁在使用
 
 - [Hamibot](https://hamibot.com/)
@@ -69,7 +77,7 @@ Content-Type: application/json
 
 ### 接收登录请求
 
-当用户扫描小程序码后，「安全登录」会向开发者提供的请求地址发送一个 POST 请求，开发者可以获取到 token，使用「安全登录」提供的令牌密钥进行验证，payload 包含小程序码 id 及用户凭证等信息。
+当用户扫描小程序码后，「安全登录」会向开发者提供的回调地址发送一个 POST 请求，开发者可以获取到 token，使用「安全登录」提供的令牌密钥进行验证，payload 包含小程序码 id 及用户凭证等信息。
 
 #### 请求格式
 ```
