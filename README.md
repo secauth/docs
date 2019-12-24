@@ -1,4 +1,4 @@
-[![微信小程序「安全登录」logo](/assets/secauth-logo.png?raw=true)](https://github.com/secauth/docs)
+[![微信小程序「安全登录」logo](https://cdn.jsdelivr.net/gh/secauth/docs@master/assets/secauth-logo.png)](https://github.com/secauth/docs)
 
 # SecAuth
 
@@ -10,15 +10,19 @@
 
 ## 登录流程
 
-[![微信小程序「安全登录」登录流程](/assets/secauth-flow.png?raw=true)](https://github.com/secauth/docs)
+[![微信小程序「安全登录」登录流程](https://cdn.jsdelivr.net/gh/secauth/docs@master/assets/secauth-flow.png)](https://github.com/secauth/docs)
 
 ## 登录结果
 
-[![微信小程序「安全登录」主题](/assets/secauth-theme.jpg?raw=true)](https://github.com/secauth/docs)
+[![微信小程序「安全登录」主题](https://cdn.jsdelivr.net/gh/secauth/docs@master/assets/secauth-theme.jpg)](https://github.com/secauth/docs)
 
 - 保持简洁，避免打扰用户，确定即离开
 - 自带多款主题配色
 - 支持定制，由应用自行提供配色，与你的网站保持一致（计划中）
+
+## 两步验证
+
+应用提供了两步验证 TOTP，提高账号保护，可作为 Google Authenticator 的替代。
 
 ## 谁在使用
 
@@ -31,7 +35,7 @@
 
 打开微信小程序「安全登录」，点击申请接入。
 
-[![微信小程序「安全登录」小程序码](/assets/secauth-wxacode.png?raw=true)](https://github.com/secauth/docs)
+[![微信小程序「安全登录」小程序码](https://cdn.jsdelivr.net/gh/secauth/docs@master/assets/secauth-wxacode.png)](https://github.com/secauth/docs)
 
 ### 获取小程序码
 
