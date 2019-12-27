@@ -22,7 +22,7 @@
 
 ## 两步验证
 
-应用提供了两步验证 TOTP，提高账号保护，可作为 Google Authenticator 的替代。
+应用提供了两步验证 TOTP，提高账号安全，可作为 Google Authenticator 等应用的替代。
 
 ## 谁在使用
 
@@ -101,6 +101,13 @@ Content-Type: application/json
   status: 'success' // 登录成功
 }
 ```
+
+## 计划
+
+- [x] 增加回调地址测试
+- [ ] 自定义结果页配色
+- [ ] 访问令牌无需手动更新
+- [ ] 自定义应用头像（小程序码头像）
 
 ## 其他
 
