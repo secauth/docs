@@ -51,8 +51,8 @@ Authorization: Bearer <token>
 
 ```sh
 curl -X GET \
-  'https://service-ggnj6gz0-1256804704.ap-hongkong.apigateway.myqcloud.com/release/wxacode?id=<id>' \
-  -H 'Authorization: Bearer <token>'
+  "https://service-ggnj6gz0-1256804704.ap-hongkong.apigateway.myqcloud.com/release/wxacode?id=<id>" \
+  -H "Authorization: Bearer <token>"
 ```
 
 - id: 字符串，必填，最长 24 位，用户扫描小程序码后，会向开发者指定的地址发送请求，携带此 id 及用户凭证
@@ -65,8 +65,8 @@ curl -X GET \
 Content-Type: application/json
 
 {
-  status: 'success',
-  data: '小程序码 URL'
+  status: "success",
+  data: "小程序码 URL"
 }
 ```
 ##### 异常
@@ -74,8 +74,8 @@ Content-Type: application/json
 Content-Type: application/json
 
 {
-  status: 'fail',
-  message: '错误信息'
+  status: "fail",
+  message: "错误信息"
 }
 ```
 
@@ -89,7 +89,7 @@ User-Agent: SecAuth-Hookshot/x
 Content-Type: application/json
 
 {
-  token: 'JWT TOKEN'
+  token: "JWT TOKEN"
 }
 ```
 #### 响应格式
@@ -98,7 +98,7 @@ Content-Type: application/json
 Content-Type: application/json
 
 {
-  status: 'success' // 登录成功
+  status: "success" // 登录成功
 }
 ```
 
