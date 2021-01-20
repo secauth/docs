@@ -111,10 +111,6 @@ Content-Type: application/json
 - [x] 访问令牌无需手动更新
 - [x] 自定义应用头像（小程序码头像）
 
-## 其他
-
-任何疑问，欢迎提 issue。
-
 ### 小程序码自定义头像
 
 图片尺寸 120x120。
@@ -131,5 +127,3 @@ Content-Type: application/json
 - province：省份
 - city：城市
 - country：国家
-
-注意：开发者配置还未完成，请联系我启用此功能。
